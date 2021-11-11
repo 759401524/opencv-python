@@ -1,6 +1,9 @@
 name: Build PYPI wheels for opencv-python on Windows
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - master
